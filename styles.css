@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -8,18 +8,19 @@ body {
   color: white;
 }
 
-.wrapper{
+/* index.html */
+.wrapper {
   width: 860px;
-  margin: 0 auto;
+  margin: 0;
 }
 
-.wrapper ul{
+.wrapper ul {
   list-style: none;
   margin-top: 2%;
   cursor: pointer;
 }
 
-.wrapper ul li{
+.wrapper ul li {
   background: #262626;
   width: 170px;
   border: 1px solid #fff;
@@ -33,15 +34,15 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.wrapper ul li:hover{
+.wrapper ul li:hover {
   background: crimson;
 }
 
-.wrapper ul ul{
+.wrapper ul ul {
   display: none;
 }
 
-.wrapper ul li:hover > ul{
+.wrapper ul li:hover > ul {
   display: block;
 }
 
@@ -49,4 +50,18 @@ body {
   margin-left: 170px;
   top: 0;
   position: absolute;
+}
+
+/* cart.html */
+
+.cart_wrapper {
+  float: right;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+
+/* main.html */
+
+.main_wrapper {
+  float: right bottom;
 }
